@@ -10,4 +10,4 @@ mvn exec:java -Dexec.mainClass=com.pramodb.writenow.EditorApp
 
 Note that all the configs are currently hardcoded in the Java files.
 
-You should see 3 editor windows popup (overlaying each other). Re-arrange them so that all three are visible. Start typing in the window titled "Write Now 1", and you will see the same text appearing ing Write Now 2 and Write Now 3.
+You should see 3 editor windows popup (overlaying each other). Re-arrange them so that all three are visible. Start typing in the window titled "Write Now 1", and you will see the same text appearing in Write Now 2 and Write Now 3.
