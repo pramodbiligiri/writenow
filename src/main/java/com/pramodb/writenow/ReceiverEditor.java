@@ -3,9 +3,12 @@ package com.pramodb.writenow;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.swing.*;
+import javax.swing.JTextArea;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.text.BadLocationException;
-import java.awt.*;
+import java.awt.GridBagLayout;
+import java.awt.GridBagConstraints;
 
 public class ReceiverEditor extends JPanel {
 

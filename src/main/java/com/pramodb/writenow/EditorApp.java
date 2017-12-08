@@ -2,10 +2,14 @@ package com.pramodb.writenow;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import java.awt.*;
+import java.awt.GridBagLayout;
+import java.awt.GridBagConstraints;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import javax.swing.*;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
 import javax.swing.event.DocumentListener;
 import javax.swing.text.Document;
 
@@ -63,5 +67,4 @@ public class EditorApp extends JPanel {
         Document document = textArea.getDocument();
         document.addDocumentListener(documentListener);
     }
-
 }
