@@ -1,7 +1,7 @@
 # WriteNow
 A text editor that streams events.
 
-WriteNow is an experiment with Kafka and Java Swing. It sends text inserted into the Swing editor widget to a Kafka topic, and other editor widgets read from that topic. Currently, only insertion is supported.
+WriteNow is an experiment with Kafka and Java Swing. It sends text inserted into the Swing editor widget to a Kafka topic, and other editor widgets read from that topic. Currently, only insertion is supported! :)
 
 Usage:
 - Download Confluent Open Source from https://www.confluent.io/download/ and unzip. Start the services with the confluent start command, as described in the [Confluent Quickstart](https://docs.confluent.io/current/quickstart.html) guide
